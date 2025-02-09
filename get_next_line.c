@@ -69,16 +69,10 @@ char	*get_next_line(int fd)
 	if (fd < 0 || BUFFER_SIZE <= 0 || fd >= MAX_FD)
 		return (NULL);
 	if ((size_t)BUFFER_SIZE + 1 > SIZE_MAX / sizeof(char))
-	{
-		free_null(&buffer[fd]);
 		return (NULL);
-	}
 	read_return = (char *)malloc(sizeof(char) * (BUFFER_SIZE) + 1);
 	if (!read_return)
-	{
-		free_null(&buffer[fd]);
 		return (NULL);
-	}
 	if (!buffer[fd])
 	{
 		buffer[fd] = ft_strdup("");
