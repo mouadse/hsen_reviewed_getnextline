@@ -1,0 +1,9 @@
+Permissions Size User  Date Modified Name
+drwxrwxr-x     - mouad  9 Feb 15:12  .git
+.rw-rw-r--     2 mouad  9 Feb 15:44  demo.txt
+.rw-rw-r--  1.8k mouad  9 Feb 15:52  get_next_line.c
+.rw-rw-r--   510 mouad  9 Feb 15:48  get_next_line.h
+.rw-rw-r--  1.5k mouad  9 Feb 15:30  get_next_line_utils.c
+.rw-rw-r--   344 mouad  9 Feb 15:44  main.c
+.rw-rw-r--  1.8k mouad  9 Feb 15:53  Makefile
+.rw-rw-r--     0 mouad  9 Feb 15:53  test.txt
